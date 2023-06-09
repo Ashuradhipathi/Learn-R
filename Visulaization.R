@@ -38,3 +38,33 @@ pie3D(x=c(15,47,13,28),labels=lbls,radius=0.8,col=c("red","black","green","blue"
 #Bar plot
 # barplot(part,names.arg,xlab,ylab,main,col)
 barplot(c(15,47,13,28),names.arg=lbls,xlab="Vehicles",ylab="Number of persons",main="Mode of Transportation",col=c("red","black","green","blue"))
+
+
+"))
+
+#stack barplot
+barplot(c(17,47,53,37,27),names.arg=c("walking","bus","cycle","train","bike"),xlab="Vehicles",ylab="Number of persons",main="Mode of Transportation",col=c("red","black","green","blue","purple"),density=80,width=1)
+legend("topright",fill=c("red","black","green","blue","purple"),c("walking","bus","cycle","train","bike"))
+
+
+# 8.4 Box Plot
+# 
+# The box plot is a method to graphically picture the numerical Information, gathered by p
+# 
+# Syntax
+# 
+# boxplot(arguments)
+# 
+# There are various arguments in boxplot, some of them are as follows: data: contains a list of data to design a box plot
+# 
+# x: data or values to draw the box plot
+# 
+# xlab: label for x-axis
+# 
+# ylab: label for y-axis
+# 
+# main: displays the title for the box plot
+# 
+# ⚫col: used to assign color to the box plot.
+# 
+# notch: used to design a line on each side of the boxes; takes a Boolean value
